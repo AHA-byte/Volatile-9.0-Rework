@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="volatile_mods" name="Volatile Modifications for v9.00 - Nemesystem" description="Gambler mods across 4 equipment categories with per-category XP progression (lv0..lv40). Ranges widen upward per level (Shield lv0: -40%/+60%, lv40: -20%/+100%; Engine/Weapon lv0: -15%/+30%, lv40: -15%/+70%; Hull lv0: -20%/+30%, lv40: -20%/+70%). Craft packs at equipment docks to earn XP in that category; higher levels unlock new variant blueprints (lower levels stay unlocked). XP curve: 10+5*curLvl to next level (lv0->1: 10, lv1->2: 15, ...). Per-category TS craft cost (Shield 13, Engine 11, Weapon 10, Hull 12) — also serves as the craft-detection fingerprint. Per-size Tuning Software drop from player kills (separate sliders for S/M/L/XL; defaults: S=10%, M=50%, L=guaranteed 1, XL=guaranteed 2)." version="132" date="2026-04-25" save="1" author="Nemesystem">
+  <dependency id="ws_2042901274" optional="false"/>
+</content>
