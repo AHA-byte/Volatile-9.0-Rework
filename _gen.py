@@ -24,10 +24,14 @@ TS_COST = {
     "hull":   12,
 }
 
-def weapon_range(N):   return (0.85, 1.30 + N*0.01)
-def engine_range(N):   return (0.85, 1.30 + N*0.01)
-def hull_range(N):     return (0.80, 1.30 + N*0.01)
-def shield_range(N):   return (0.60 + (N//2)*0.01, 1.60 + N*0.01)
+def linear_range(N):
+    val = 1.00 + (N * 0.02)
+    return (val, val)
+
+def weapon_range(N):   return linear_range(N)
+def engine_range(N):   return linear_range(N)
+def hull_range(N):     return linear_range(N)
+def shield_range(N):   return linear_range(N)
 
 RANGES = {
     "shield": shield_range,
