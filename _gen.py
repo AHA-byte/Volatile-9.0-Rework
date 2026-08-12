@@ -41,10 +41,10 @@ RANGES = {
 }
 
 PACK_DESCRIPTIONS = {
-    "shield": "Gambler's shield modification. Every stat rolls uniformly in the level range: maxshield, recharge rate, recharge delay.",
-    "engine": "Gambler's engine modification. Every stat rolls uniformly in the level range: forward/boost/travel thrust, rotation, strafe, boost/travel timings.",
-    "weapon": "Gambler's weapon modification. Every stat rolls uniformly in the level range: damage, cooling, reload, projectile speed, beam length, lifetime, charge time, rotation, sticktime, surface element.",
-    "hull":   "Gambler's hull modification. Every stat rolls uniformly in the level range: max hull, mass, drag, radar range.",
+    "shield": "Deterministic shield upgrade. Increases capacity and recharge rate; decreases recharge delay.",
+    "engine": "Deterministic engine upgrade. Increases thrust, rotation, and strafe; decreases charge times.",
+    "weapon": "Deterministic weapon upgrade. Increases damage, cooling, reload, and speed; decreases charge time.",
+    "hull":   "Deterministic hull upgrade. Increases hull and radar range; decreases mass and drag.",
 }
 
 PACK_TITLE = {
