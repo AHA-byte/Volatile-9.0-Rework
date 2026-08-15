@@ -459,7 +459,6 @@ def gen_md():
               </do_if>
             </do_if>
             <do_elseif value="$newXP ge $threshold">
-              <!-- Level up! Carry over excess XP to the new level bar. -->
               <set_value name="$excess"  exact="0"/>
               <set_value name="$nextLvl" exact="$curLvl + 1"/>
               <set_value name="global.$VolatileMods.$Level.{{'$' + $cat}}" exact="$nextLvl"/>
