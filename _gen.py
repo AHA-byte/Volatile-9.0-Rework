@@ -18,10 +18,10 @@ MAX_LEVEL = 40
 # removed in one craft, mapping uniquely to a category. Values must stay
 # distinct from each other and from common vanilla mod TS costs (typically 1-5).
 TS_COST = {
-    "shield": 13,
-    "engine": 11,
-    "weapon": 10,
-    "hull":   12,
+    "shield": 10,
+    "engine": 8,
+    "weapon": 7,
+    "hull":  9,
 }
 
 def linear_range(N):
