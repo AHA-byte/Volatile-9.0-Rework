@@ -124,25 +124,35 @@ def gen_equipmentmods():
     INVERTED_STATS = {"rechargedelay", "travelchargetime", "travelattacktime", "mass", "drag", "chargetime"}
 
     def block(sel, outer_tag, bonus_stats, range_fn, cat):
-        out.append(f'  <add sel="{sel}">')
-        for N in range(MAX_LEVEL + 1):
-            mn, mx = range_fn(N)
-            ware_id = f"mod_{cat}_volatile_basic_lv{N}"
-            
-            # The outer tag (capacity, forwardthrust) always scales positively
-            out.append(f'    <{outer_tag} ware="{ware_id}" quality="1" min="{fmt(mn)}" max="{fmt(mx)}">')
-            out.append(f'      <bonus chance="1.0" max="{len(bonus_stats)}">')
-            for stat in bonus_stats:
-                if stat in INVERTED_STATS:
-                    # Invert the math so an 80% buff (1.80) becomes a reduction (1.0 / 1.80 = 0.55x)
-                    inv_val = 1.0 / mn
-                    out.append(f'        <{stat} min="{fmt(inv_val)}" max="{fmt(inv_val)}" weight="1"/>')
+            out.append(f'  <add sel="{sel}">')
+            for N in range(MAX_LEVEL + 1):
+                mn, mx = range_fn(N)
+                ware_id = f"mod_{cat}_volatile_basic_lv{N}"
+                
+                # Dynamically split across the 3 UI tabs based on MAX_LEVEL
+                # This evenly distributes the items to avoid the 32-item limit per tab
+                chunk_size = (MAX_LEVEL + 1) / 3.0
+                
+                if N < chunk_size:
+                    q = 1  # Basic Tab
+                elif N < (chunk_size * 2):
+                    q = 2  # Enhanced Tab
                 else:
-                    out.append(f'        <{stat} min="{fmt(mn)}" max="{fmt(mx)}" weight="1"/>')
-            out.append(f'      </bonus>')
-            out.append(f'    </{outer_tag}>')
-        out.append('  </add>')
-        out.append('')
+                    q = 3  # Exceptional Tab
+                
+                # The outer tag (capacity, forwardthrust) uses the dynamic 'q' variable
+                out.append(f'    <{outer_tag} ware="{ware_id}" quality="{q}" min="{fmt(mn)}" max="{fmt(mx)}">')
+                out.append(f'      <bonus chance="1.0" max="{len(bonus_stats)}">')
+                for stat in bonus_stats:
+                    if stat in INVERTED_STATS:
+                        inv_val = 1.0 / mn
+                        out.append(f'        <{stat} min="{fmt(inv_val)}" max="{fmt(inv_val)}" weight="1"/>')
+                    else:
+                        out.append(f'        <{stat} min="{fmt(mn)}" max="{fmt(mx)}" weight="1"/>')
+                out.append(f'      </bonus>')
+                out.append(f'    </{outer_tag}>')
+            out.append('  </add>')
+            out.append('')
 
     out.append('  <!-- ============================ SHIELD ============================ -->')
     block('/equipmentmods/shield', 'capacity',      SHIELD_BONUS, shield_range, 'shield')
@@ -455,13 +465,13 @@ def gen_md():
             <!-- Target XP is 1 so every craft instantly triggers a level up -->
             <set_value name="$threshold" exact="1"/>
 
-            <do_if value="$curLvl ge 40">
+            <do_if value="$curLvl ge 45">
               <!-- Max level: cap XP at threshold (display-only). -->
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}" exact="$threshold"/>
               <do_if value="global.$VolatileMods.$CraftXPNotify">
                 <show_notification text="[
                     'Volatile Mods',
-                    '%s craft: MAX LEVEL reached (lv40).'.[$cat]
+                    '%s craft: MAX LEVEL reached (lv45).'.[$cat]
                   ]" timeout="3s" priority="2"/>
               </do_if>
             </do_if>
@@ -471,11 +481,6 @@ def gen_md():
               <set_value name="$nextLvl" exact="$curLvl + 1"/>
               <set_value name="global.$VolatileMods.$Level.{{'$' + $cat}}" exact="$nextLvl"/>
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}"    exact="$excess"/>
-
-              <!-- AUTO-CLEANUP: Loop through and delete EVERY lower-level blueprint -->
-              <do_all exact="$nextLvl" counter="$i">
-                <remove_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$i}}]"/>
-              </do_all>
 
               <!-- Grant blueprint for the new level. Wares list is 1-based -->
               <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
@@ -719,23 +724,6 @@ def gen_md():
                 ]
               ]"/>
 
-            <!-- ======================== Emergency ======================== -->
-            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
-            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
-                $col = 1, $colSpan = 3,
-                $text = '-- Emergency --'
-              ]"/>
-            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
-            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
-                $col = 1, $colSpan = 2,
-                $text = 'Clean Up Old Blueprints',
-                $mouseOverText = 'Deletes all obsolete lower-level blueprints to fix the UI limit.'
-              ]"/>
-            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
-                $col = 3,
-                $onClick = Manual_GrantBlueprints,
-                $text = table[ $text = 'Clean', $halign = 'center' ]
-              ]"/>
           </actions>
         </cue>
 

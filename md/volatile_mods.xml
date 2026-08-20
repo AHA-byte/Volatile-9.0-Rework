@@ -48,10 +48,10 @@
                 200  = guaranteed 2 TS.
                 150  = guaranteed 1 + 50% chance of a 2nd.
              Defaults: S=10%, M=50%, L=100% (=1), XL=200% (=2). -->
-        <set_value name="global.$VolatileMods.$TSDropS"  exact="15"/>
-        <set_value name="global.$VolatileMods.$TSDropM"  exact="75"/>
-        <set_value name="global.$VolatileMods.$TSDropL"  exact="200"/>
-        <set_value name="global.$VolatileMods.$TSDropXL" exact="300"/>
+        <set_value name="global.$VolatileMods.$TSDropS"  exact="10"/>
+        <set_value name="global.$VolatileMods.$TSDropM"  exact="50"/>
+        <set_value name="global.$VolatileMods.$TSDropL"  exact="100"/>
+        <set_value name="global.$VolatileMods.$TSDropXL" exact="200"/>
 
         <!-- Per-category XP and Level (0..40). -->
         <set_value name="global.$VolatileMods.$XP" exact="table[]"/>
@@ -674,9 +674,7 @@
               <set_value name="global.$VolatileMods.$Level.{'$' + $cat}" exact="$nextLvl"/>
               <set_value name="global.$VolatileMods.$XP.{'$' + $cat}"    exact="$excess"/>
 
-              <!-- Grant blueprint for the new level. Wares list is 1-based:
-                   index N+1 = lvN. Lower-level blueprints stay granted
-                   (X4 MD has no remove_blueprints action). -->
+              <!-- Grant blueprint for the new level. Wares list is 1-based -->
               <add_blueprints wares="[global.$VolatileMods.$Wares.{'$' + $cat}.{$nextLvl + 1}]"/>
 
               <show_notification text="[
@@ -927,13 +925,13 @@
             <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
             <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
                 $col = 1, $colSpan = 2,
-                $text = 'Re-grant all earned blueprints',
-                $mouseOverText = 'Safety net. Re-grants lv0..currentLevel blueprints for each category. Safe to click even if already granted.'
+                $text = 'Clean Up Old Blueprints',
+                $mouseOverText = 'Deletes all obsolete lower-level blueprints to fix the UI limit.'
               ]"/>
             <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
                 $col = 3,
                 $onClick = Manual_GrantBlueprints,
-                $text = table[ $text = 'Grant', $halign = 'center' ]
+                $text = table[ $text = 'Clean', $halign = 'center' ]
               ]"/>
           </actions>
         </cue>
@@ -993,24 +991,22 @@
         <cue name="Manual_GrantBlueprints" instantiate="true">
           <conditions><event_cue_signalled/></conditions>
           <actions>
-            <!-- Re-grant lv0..currentLevel for each category. Wares list is
-                 1-based: index N+1 = lvN, so loop 1..currentLevel+1. -->
-            <do_all exact="global.$VolatileMods.$Level.$shield + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$shield.{$i}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$shield" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$shield.{$i}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$engine + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$engine.{$i}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$engine" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$engine.{$i}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$weapon + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{$i}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$weapon" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{$i}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$hull + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$hull.{$i}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$hull" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$hull.{$i}]"/>
             </do_all>
-            <debug_text text="'MOD: VolatileMods -- Manual_GrantBlueprints: re-granted lv0..currentLevel for all 4 categories.'" context="false" filter="scripts"/>
+            <debug_text text="'MOD: VolatileMods -- Cleaned up obsolete blueprints.'" context="false" filter="scripts"/>
             <show_notification text="[
                 'Volatile Mods',
-                'Re-granted lv0..currentLevel blueprints for Shield / Engine / Weapon / Hull.'
+                'Cleaned up all obsolete lower-level blueprints!'
               ]" timeout="4s" priority="3"/>
           </actions>
         </cue>

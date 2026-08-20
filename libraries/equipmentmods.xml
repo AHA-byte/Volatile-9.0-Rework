@@ -108,181 +108,181 @@
         <rechargedelay min="0.68" max="0.68" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv16" quality="1" min="1.51" max="1.51">
+    <capacity ware="mod_shield_volatile_basic_lv16" quality="2" min="1.51" max="1.51">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.51" max="1.51" weight="1"/>
         <rechargedelay min="0.66" max="0.66" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv17" quality="1" min="1.54" max="1.54">
+    <capacity ware="mod_shield_volatile_basic_lv17" quality="2" min="1.54" max="1.54">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.54" max="1.54" weight="1"/>
         <rechargedelay min="0.65" max="0.65" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv18" quality="1" min="1.57" max="1.57">
+    <capacity ware="mod_shield_volatile_basic_lv18" quality="2" min="1.57" max="1.57">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.57" max="1.57" weight="1"/>
         <rechargedelay min="0.64" max="0.64" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv19" quality="1" min="1.60" max="1.60">
+    <capacity ware="mod_shield_volatile_basic_lv19" quality="2" min="1.60" max="1.60">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.60" max="1.60" weight="1"/>
         <rechargedelay min="0.62" max="0.62" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv20" quality="1" min="1.63" max="1.63">
+    <capacity ware="mod_shield_volatile_basic_lv20" quality="2" min="1.63" max="1.63">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.63" max="1.63" weight="1"/>
         <rechargedelay min="0.61" max="0.61" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv21" quality="1" min="1.66" max="1.66">
+    <capacity ware="mod_shield_volatile_basic_lv21" quality="2" min="1.66" max="1.66">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.66" max="1.66" weight="1"/>
         <rechargedelay min="0.60" max="0.60" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv22" quality="1" min="1.69" max="1.69">
+    <capacity ware="mod_shield_volatile_basic_lv22" quality="2" min="1.69" max="1.69">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.69" max="1.69" weight="1"/>
         <rechargedelay min="0.59" max="0.59" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv23" quality="1" min="1.72" max="1.72">
+    <capacity ware="mod_shield_volatile_basic_lv23" quality="2" min="1.72" max="1.72">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.72" max="1.72" weight="1"/>
         <rechargedelay min="0.58" max="0.58" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv24" quality="1" min="1.75" max="1.75">
+    <capacity ware="mod_shield_volatile_basic_lv24" quality="2" min="1.75" max="1.75">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.75" max="1.75" weight="1"/>
         <rechargedelay min="0.57" max="0.57" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv25" quality="1" min="1.78" max="1.78">
+    <capacity ware="mod_shield_volatile_basic_lv25" quality="2" min="1.78" max="1.78">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.78" max="1.78" weight="1"/>
         <rechargedelay min="0.56" max="0.56" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv26" quality="1" min="1.81" max="1.81">
+    <capacity ware="mod_shield_volatile_basic_lv26" quality="2" min="1.81" max="1.81">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.81" max="1.81" weight="1"/>
         <rechargedelay min="0.55" max="0.55" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv27" quality="1" min="1.84" max="1.84">
+    <capacity ware="mod_shield_volatile_basic_lv27" quality="2" min="1.84" max="1.84">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.84" max="1.84" weight="1"/>
         <rechargedelay min="0.54" max="0.54" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv28" quality="1" min="1.87" max="1.87">
+    <capacity ware="mod_shield_volatile_basic_lv28" quality="2" min="1.87" max="1.87">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.87" max="1.87" weight="1"/>
         <rechargedelay min="0.53" max="0.53" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv29" quality="1" min="1.90" max="1.90">
+    <capacity ware="mod_shield_volatile_basic_lv29" quality="2" min="1.90" max="1.90">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.90" max="1.90" weight="1"/>
         <rechargedelay min="0.53" max="0.53" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv30" quality="1" min="1.93" max="1.93">
+    <capacity ware="mod_shield_volatile_basic_lv30" quality="2" min="1.93" max="1.93">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.93" max="1.93" weight="1"/>
         <rechargedelay min="0.52" max="0.52" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv31" quality="1" min="1.96" max="1.96">
+    <capacity ware="mod_shield_volatile_basic_lv31" quality="3" min="1.96" max="1.96">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.96" max="1.96" weight="1"/>
         <rechargedelay min="0.51" max="0.51" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv32" quality="1" min="1.99" max="1.99">
+    <capacity ware="mod_shield_volatile_basic_lv32" quality="3" min="1.99" max="1.99">
       <bonus chance="1.0" max="2">
         <rechargerate min="1.99" max="1.99" weight="1"/>
         <rechargedelay min="0.50" max="0.50" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv33" quality="1" min="2.02" max="2.02">
+    <capacity ware="mod_shield_volatile_basic_lv33" quality="3" min="2.02" max="2.02">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.02" max="2.02" weight="1"/>
         <rechargedelay min="0.50" max="0.50" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv34" quality="1" min="2.05" max="2.05">
+    <capacity ware="mod_shield_volatile_basic_lv34" quality="3" min="2.05" max="2.05">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.05" max="2.05" weight="1"/>
         <rechargedelay min="0.49" max="0.49" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv35" quality="1" min="2.08" max="2.08">
+    <capacity ware="mod_shield_volatile_basic_lv35" quality="3" min="2.08" max="2.08">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.08" max="2.08" weight="1"/>
         <rechargedelay min="0.48" max="0.48" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv36" quality="1" min="2.11" max="2.11">
+    <capacity ware="mod_shield_volatile_basic_lv36" quality="3" min="2.11" max="2.11">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.11" max="2.11" weight="1"/>
         <rechargedelay min="0.47" max="0.47" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv37" quality="1" min="2.14" max="2.14">
+    <capacity ware="mod_shield_volatile_basic_lv37" quality="3" min="2.14" max="2.14">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.14" max="2.14" weight="1"/>
         <rechargedelay min="0.47" max="0.47" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv38" quality="1" min="2.17" max="2.17">
+    <capacity ware="mod_shield_volatile_basic_lv38" quality="3" min="2.17" max="2.17">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.17" max="2.17" weight="1"/>
         <rechargedelay min="0.46" max="0.46" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv39" quality="1" min="2.20" max="2.20">
+    <capacity ware="mod_shield_volatile_basic_lv39" quality="3" min="2.20" max="2.20">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.20" max="2.20" weight="1"/>
         <rechargedelay min="0.45" max="0.45" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv40" quality="1" min="2.23" max="2.23">
+    <capacity ware="mod_shield_volatile_basic_lv40" quality="3" min="2.23" max="2.23">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.23" max="2.23" weight="1"/>
         <rechargedelay min="0.45" max="0.45" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv41" quality="1" min="2.26" max="2.26">
+    <capacity ware="mod_shield_volatile_basic_lv41" quality="3" min="2.26" max="2.26">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.26" max="2.26" weight="1"/>
         <rechargedelay min="0.44" max="0.44" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv42" quality="1" min="2.29" max="2.29">
+    <capacity ware="mod_shield_volatile_basic_lv42" quality="3" min="2.29" max="2.29">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.29" max="2.29" weight="1"/>
         <rechargedelay min="0.44" max="0.44" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv43" quality="1" min="2.32" max="2.32">
+    <capacity ware="mod_shield_volatile_basic_lv43" quality="3" min="2.32" max="2.32">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.32" max="2.32" weight="1"/>
         <rechargedelay min="0.43" max="0.43" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv44" quality="1" min="2.35" max="2.35">
+    <capacity ware="mod_shield_volatile_basic_lv44" quality="3" min="2.35" max="2.35">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.35" max="2.35" weight="1"/>
         <rechargedelay min="0.43" max="0.43" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv45" quality="1" min="2.50" max="2.50">
+    <capacity ware="mod_shield_volatile_basic_lv45" quality="3" min="2.50" max="2.50">
       <bonus chance="1.0" max="2">
         <rechargerate min="2.50" max="2.50" weight="1"/>
         <rechargedelay min="0.40" max="0.40" weight="1"/>
@@ -500,7 +500,7 @@
         <strafethrust min="1.48" max="1.48" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv16" quality="1" min="1.51" max="1.51">
+    <forwardthrust ware="mod_engine_volatile_basic_lv16" quality="2" min="1.51" max="1.51">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.51" max="1.51" weight="1"/>
         <boostduration min="1.51" max="1.51" weight="1"/>
@@ -513,7 +513,7 @@
         <strafethrust min="1.51" max="1.51" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv17" quality="1" min="1.54" max="1.54">
+    <forwardthrust ware="mod_engine_volatile_basic_lv17" quality="2" min="1.54" max="1.54">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.54" max="1.54" weight="1"/>
         <boostduration min="1.54" max="1.54" weight="1"/>
@@ -526,7 +526,7 @@
         <strafethrust min="1.54" max="1.54" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv18" quality="1" min="1.57" max="1.57">
+    <forwardthrust ware="mod_engine_volatile_basic_lv18" quality="2" min="1.57" max="1.57">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.57" max="1.57" weight="1"/>
         <boostduration min="1.57" max="1.57" weight="1"/>
@@ -539,7 +539,7 @@
         <strafethrust min="1.57" max="1.57" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv19" quality="1" min="1.60" max="1.60">
+    <forwardthrust ware="mod_engine_volatile_basic_lv19" quality="2" min="1.60" max="1.60">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.60" max="1.60" weight="1"/>
         <boostduration min="1.60" max="1.60" weight="1"/>
@@ -552,7 +552,7 @@
         <strafethrust min="1.60" max="1.60" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv20" quality="1" min="1.63" max="1.63">
+    <forwardthrust ware="mod_engine_volatile_basic_lv20" quality="2" min="1.63" max="1.63">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.63" max="1.63" weight="1"/>
         <boostduration min="1.63" max="1.63" weight="1"/>
@@ -565,7 +565,7 @@
         <strafethrust min="1.63" max="1.63" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv21" quality="1" min="1.66" max="1.66">
+    <forwardthrust ware="mod_engine_volatile_basic_lv21" quality="2" min="1.66" max="1.66">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.66" max="1.66" weight="1"/>
         <boostduration min="1.66" max="1.66" weight="1"/>
@@ -578,7 +578,7 @@
         <strafethrust min="1.66" max="1.66" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv22" quality="1" min="1.69" max="1.69">
+    <forwardthrust ware="mod_engine_volatile_basic_lv22" quality="2" min="1.69" max="1.69">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.69" max="1.69" weight="1"/>
         <boostduration min="1.69" max="1.69" weight="1"/>
@@ -591,7 +591,7 @@
         <strafethrust min="1.69" max="1.69" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv23" quality="1" min="1.72" max="1.72">
+    <forwardthrust ware="mod_engine_volatile_basic_lv23" quality="2" min="1.72" max="1.72">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.72" max="1.72" weight="1"/>
         <boostduration min="1.72" max="1.72" weight="1"/>
@@ -604,7 +604,7 @@
         <strafethrust min="1.72" max="1.72" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv24" quality="1" min="1.75" max="1.75">
+    <forwardthrust ware="mod_engine_volatile_basic_lv24" quality="2" min="1.75" max="1.75">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.75" max="1.75" weight="1"/>
         <boostduration min="1.75" max="1.75" weight="1"/>
@@ -617,7 +617,7 @@
         <strafethrust min="1.75" max="1.75" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv25" quality="1" min="1.78" max="1.78">
+    <forwardthrust ware="mod_engine_volatile_basic_lv25" quality="2" min="1.78" max="1.78">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.78" max="1.78" weight="1"/>
         <boostduration min="1.78" max="1.78" weight="1"/>
@@ -630,7 +630,7 @@
         <strafethrust min="1.78" max="1.78" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv26" quality="1" min="1.81" max="1.81">
+    <forwardthrust ware="mod_engine_volatile_basic_lv26" quality="2" min="1.81" max="1.81">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.81" max="1.81" weight="1"/>
         <boostduration min="1.81" max="1.81" weight="1"/>
@@ -643,7 +643,7 @@
         <strafethrust min="1.81" max="1.81" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv27" quality="1" min="1.84" max="1.84">
+    <forwardthrust ware="mod_engine_volatile_basic_lv27" quality="2" min="1.84" max="1.84">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.84" max="1.84" weight="1"/>
         <boostduration min="1.84" max="1.84" weight="1"/>
@@ -656,7 +656,7 @@
         <strafethrust min="1.84" max="1.84" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv28" quality="1" min="1.87" max="1.87">
+    <forwardthrust ware="mod_engine_volatile_basic_lv28" quality="2" min="1.87" max="1.87">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.87" max="1.87" weight="1"/>
         <boostduration min="1.87" max="1.87" weight="1"/>
@@ -669,7 +669,7 @@
         <strafethrust min="1.87" max="1.87" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv29" quality="1" min="1.90" max="1.90">
+    <forwardthrust ware="mod_engine_volatile_basic_lv29" quality="2" min="1.90" max="1.90">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.90" max="1.90" weight="1"/>
         <boostduration min="1.90" max="1.90" weight="1"/>
@@ -682,7 +682,7 @@
         <strafethrust min="1.90" max="1.90" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv30" quality="1" min="1.93" max="1.93">
+    <forwardthrust ware="mod_engine_volatile_basic_lv30" quality="2" min="1.93" max="1.93">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.93" max="1.93" weight="1"/>
         <boostduration min="1.93" max="1.93" weight="1"/>
@@ -695,7 +695,7 @@
         <strafethrust min="1.93" max="1.93" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv31" quality="1" min="1.96" max="1.96">
+    <forwardthrust ware="mod_engine_volatile_basic_lv31" quality="3" min="1.96" max="1.96">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.96" max="1.96" weight="1"/>
         <boostduration min="1.96" max="1.96" weight="1"/>
@@ -708,7 +708,7 @@
         <strafethrust min="1.96" max="1.96" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv32" quality="1" min="1.99" max="1.99">
+    <forwardthrust ware="mod_engine_volatile_basic_lv32" quality="3" min="1.99" max="1.99">
       <bonus chance="1.0" max="9">
         <boostthrust min="1.99" max="1.99" weight="1"/>
         <boostduration min="1.99" max="1.99" weight="1"/>
@@ -721,7 +721,7 @@
         <strafethrust min="1.99" max="1.99" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv33" quality="1" min="2.02" max="2.02">
+    <forwardthrust ware="mod_engine_volatile_basic_lv33" quality="3" min="2.02" max="2.02">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.02" max="2.02" weight="1"/>
         <boostduration min="2.02" max="2.02" weight="1"/>
@@ -734,7 +734,7 @@
         <strafethrust min="2.02" max="2.02" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv34" quality="1" min="2.05" max="2.05">
+    <forwardthrust ware="mod_engine_volatile_basic_lv34" quality="3" min="2.05" max="2.05">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.05" max="2.05" weight="1"/>
         <boostduration min="2.05" max="2.05" weight="1"/>
@@ -747,7 +747,7 @@
         <strafethrust min="2.05" max="2.05" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv35" quality="1" min="2.08" max="2.08">
+    <forwardthrust ware="mod_engine_volatile_basic_lv35" quality="3" min="2.08" max="2.08">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.08" max="2.08" weight="1"/>
         <boostduration min="2.08" max="2.08" weight="1"/>
@@ -760,7 +760,7 @@
         <strafethrust min="2.08" max="2.08" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv36" quality="1" min="2.11" max="2.11">
+    <forwardthrust ware="mod_engine_volatile_basic_lv36" quality="3" min="2.11" max="2.11">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.11" max="2.11" weight="1"/>
         <boostduration min="2.11" max="2.11" weight="1"/>
@@ -773,7 +773,7 @@
         <strafethrust min="2.11" max="2.11" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv37" quality="1" min="2.14" max="2.14">
+    <forwardthrust ware="mod_engine_volatile_basic_lv37" quality="3" min="2.14" max="2.14">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.14" max="2.14" weight="1"/>
         <boostduration min="2.14" max="2.14" weight="1"/>
@@ -786,7 +786,7 @@
         <strafethrust min="2.14" max="2.14" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv38" quality="1" min="2.17" max="2.17">
+    <forwardthrust ware="mod_engine_volatile_basic_lv38" quality="3" min="2.17" max="2.17">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.17" max="2.17" weight="1"/>
         <boostduration min="2.17" max="2.17" weight="1"/>
@@ -799,7 +799,7 @@
         <strafethrust min="2.17" max="2.17" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv39" quality="1" min="2.20" max="2.20">
+    <forwardthrust ware="mod_engine_volatile_basic_lv39" quality="3" min="2.20" max="2.20">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.20" max="2.20" weight="1"/>
         <boostduration min="2.20" max="2.20" weight="1"/>
@@ -812,7 +812,7 @@
         <strafethrust min="2.20" max="2.20" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv40" quality="1" min="2.23" max="2.23">
+    <forwardthrust ware="mod_engine_volatile_basic_lv40" quality="3" min="2.23" max="2.23">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.23" max="2.23" weight="1"/>
         <boostduration min="2.23" max="2.23" weight="1"/>
@@ -825,7 +825,7 @@
         <strafethrust min="2.23" max="2.23" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv41" quality="1" min="2.26" max="2.26">
+    <forwardthrust ware="mod_engine_volatile_basic_lv41" quality="3" min="2.26" max="2.26">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.26" max="2.26" weight="1"/>
         <boostduration min="2.26" max="2.26" weight="1"/>
@@ -838,7 +838,7 @@
         <strafethrust min="2.26" max="2.26" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv42" quality="1" min="2.29" max="2.29">
+    <forwardthrust ware="mod_engine_volatile_basic_lv42" quality="3" min="2.29" max="2.29">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.29" max="2.29" weight="1"/>
         <boostduration min="2.29" max="2.29" weight="1"/>
@@ -851,7 +851,7 @@
         <strafethrust min="2.29" max="2.29" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv43" quality="1" min="2.32" max="2.32">
+    <forwardthrust ware="mod_engine_volatile_basic_lv43" quality="3" min="2.32" max="2.32">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.32" max="2.32" weight="1"/>
         <boostduration min="2.32" max="2.32" weight="1"/>
@@ -864,7 +864,7 @@
         <strafethrust min="2.32" max="2.32" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv44" quality="1" min="2.35" max="2.35">
+    <forwardthrust ware="mod_engine_volatile_basic_lv44" quality="3" min="2.35" max="2.35">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.35" max="2.35" weight="1"/>
         <boostduration min="2.35" max="2.35" weight="1"/>
@@ -877,7 +877,7 @@
         <strafethrust min="2.35" max="2.35" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv45" quality="1" min="2.50" max="2.50">
+    <forwardthrust ware="mod_engine_volatile_basic_lv45" quality="3" min="2.50" max="2.50">
       <bonus chance="1.0" max="9">
         <boostthrust min="2.50" max="2.50" weight="1"/>
         <boostduration min="2.50" max="2.50" weight="1"/>
@@ -1103,7 +1103,7 @@
         <surfaceelement min="1.48" max="1.48" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv16" quality="1" min="1.51" max="1.51">
+    <damage ware="mod_weapon_volatile_basic_lv16" quality="2" min="1.51" max="1.51">
       <bonus chance="1.0" max="9">
         <cooling min="1.51" max="1.51" weight="1"/>
         <reload min="1.51" max="1.51" weight="1"/>
@@ -1116,7 +1116,7 @@
         <surfaceelement min="1.51" max="1.51" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv17" quality="1" min="1.54" max="1.54">
+    <damage ware="mod_weapon_volatile_basic_lv17" quality="2" min="1.54" max="1.54">
       <bonus chance="1.0" max="9">
         <cooling min="1.54" max="1.54" weight="1"/>
         <reload min="1.54" max="1.54" weight="1"/>
@@ -1129,7 +1129,7 @@
         <surfaceelement min="1.54" max="1.54" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv18" quality="1" min="1.57" max="1.57">
+    <damage ware="mod_weapon_volatile_basic_lv18" quality="2" min="1.57" max="1.57">
       <bonus chance="1.0" max="9">
         <cooling min="1.57" max="1.57" weight="1"/>
         <reload min="1.57" max="1.57" weight="1"/>
@@ -1142,7 +1142,7 @@
         <surfaceelement min="1.57" max="1.57" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv19" quality="1" min="1.60" max="1.60">
+    <damage ware="mod_weapon_volatile_basic_lv19" quality="2" min="1.60" max="1.60">
       <bonus chance="1.0" max="9">
         <cooling min="1.60" max="1.60" weight="1"/>
         <reload min="1.60" max="1.60" weight="1"/>
@@ -1155,7 +1155,7 @@
         <surfaceelement min="1.60" max="1.60" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv20" quality="1" min="1.63" max="1.63">
+    <damage ware="mod_weapon_volatile_basic_lv20" quality="2" min="1.63" max="1.63">
       <bonus chance="1.0" max="9">
         <cooling min="1.63" max="1.63" weight="1"/>
         <reload min="1.63" max="1.63" weight="1"/>
@@ -1168,7 +1168,7 @@
         <surfaceelement min="1.63" max="1.63" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv21" quality="1" min="1.66" max="1.66">
+    <damage ware="mod_weapon_volatile_basic_lv21" quality="2" min="1.66" max="1.66">
       <bonus chance="1.0" max="9">
         <cooling min="1.66" max="1.66" weight="1"/>
         <reload min="1.66" max="1.66" weight="1"/>
@@ -1181,7 +1181,7 @@
         <surfaceelement min="1.66" max="1.66" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv22" quality="1" min="1.69" max="1.69">
+    <damage ware="mod_weapon_volatile_basic_lv22" quality="2" min="1.69" max="1.69">
       <bonus chance="1.0" max="9">
         <cooling min="1.69" max="1.69" weight="1"/>
         <reload min="1.69" max="1.69" weight="1"/>
@@ -1194,7 +1194,7 @@
         <surfaceelement min="1.69" max="1.69" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv23" quality="1" min="1.72" max="1.72">
+    <damage ware="mod_weapon_volatile_basic_lv23" quality="2" min="1.72" max="1.72">
       <bonus chance="1.0" max="9">
         <cooling min="1.72" max="1.72" weight="1"/>
         <reload min="1.72" max="1.72" weight="1"/>
@@ -1207,7 +1207,7 @@
         <surfaceelement min="1.72" max="1.72" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv24" quality="1" min="1.75" max="1.75">
+    <damage ware="mod_weapon_volatile_basic_lv24" quality="2" min="1.75" max="1.75">
       <bonus chance="1.0" max="9">
         <cooling min="1.75" max="1.75" weight="1"/>
         <reload min="1.75" max="1.75" weight="1"/>
@@ -1220,7 +1220,7 @@
         <surfaceelement min="1.75" max="1.75" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv25" quality="1" min="1.78" max="1.78">
+    <damage ware="mod_weapon_volatile_basic_lv25" quality="2" min="1.78" max="1.78">
       <bonus chance="1.0" max="9">
         <cooling min="1.78" max="1.78" weight="1"/>
         <reload min="1.78" max="1.78" weight="1"/>
@@ -1233,7 +1233,7 @@
         <surfaceelement min="1.78" max="1.78" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv26" quality="1" min="1.81" max="1.81">
+    <damage ware="mod_weapon_volatile_basic_lv26" quality="2" min="1.81" max="1.81">
       <bonus chance="1.0" max="9">
         <cooling min="1.81" max="1.81" weight="1"/>
         <reload min="1.81" max="1.81" weight="1"/>
@@ -1246,7 +1246,7 @@
         <surfaceelement min="1.81" max="1.81" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv27" quality="1" min="1.84" max="1.84">
+    <damage ware="mod_weapon_volatile_basic_lv27" quality="2" min="1.84" max="1.84">
       <bonus chance="1.0" max="9">
         <cooling min="1.84" max="1.84" weight="1"/>
         <reload min="1.84" max="1.84" weight="1"/>
@@ -1259,7 +1259,7 @@
         <surfaceelement min="1.84" max="1.84" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv28" quality="1" min="1.87" max="1.87">
+    <damage ware="mod_weapon_volatile_basic_lv28" quality="2" min="1.87" max="1.87">
       <bonus chance="1.0" max="9">
         <cooling min="1.87" max="1.87" weight="1"/>
         <reload min="1.87" max="1.87" weight="1"/>
@@ -1272,7 +1272,7 @@
         <surfaceelement min="1.87" max="1.87" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv29" quality="1" min="1.90" max="1.90">
+    <damage ware="mod_weapon_volatile_basic_lv29" quality="2" min="1.90" max="1.90">
       <bonus chance="1.0" max="9">
         <cooling min="1.90" max="1.90" weight="1"/>
         <reload min="1.90" max="1.90" weight="1"/>
@@ -1285,7 +1285,7 @@
         <surfaceelement min="1.90" max="1.90" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv30" quality="1" min="1.93" max="1.93">
+    <damage ware="mod_weapon_volatile_basic_lv30" quality="2" min="1.93" max="1.93">
       <bonus chance="1.0" max="9">
         <cooling min="1.93" max="1.93" weight="1"/>
         <reload min="1.93" max="1.93" weight="1"/>
@@ -1298,7 +1298,7 @@
         <surfaceelement min="1.93" max="1.93" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv31" quality="1" min="1.96" max="1.96">
+    <damage ware="mod_weapon_volatile_basic_lv31" quality="3" min="1.96" max="1.96">
       <bonus chance="1.0" max="9">
         <cooling min="1.96" max="1.96" weight="1"/>
         <reload min="1.96" max="1.96" weight="1"/>
@@ -1311,7 +1311,7 @@
         <surfaceelement min="1.96" max="1.96" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv32" quality="1" min="1.99" max="1.99">
+    <damage ware="mod_weapon_volatile_basic_lv32" quality="3" min="1.99" max="1.99">
       <bonus chance="1.0" max="9">
         <cooling min="1.99" max="1.99" weight="1"/>
         <reload min="1.99" max="1.99" weight="1"/>
@@ -1324,7 +1324,7 @@
         <surfaceelement min="1.99" max="1.99" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv33" quality="1" min="2.02" max="2.02">
+    <damage ware="mod_weapon_volatile_basic_lv33" quality="3" min="2.02" max="2.02">
       <bonus chance="1.0" max="9">
         <cooling min="2.02" max="2.02" weight="1"/>
         <reload min="2.02" max="2.02" weight="1"/>
@@ -1337,7 +1337,7 @@
         <surfaceelement min="2.02" max="2.02" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv34" quality="1" min="2.05" max="2.05">
+    <damage ware="mod_weapon_volatile_basic_lv34" quality="3" min="2.05" max="2.05">
       <bonus chance="1.0" max="9">
         <cooling min="2.05" max="2.05" weight="1"/>
         <reload min="2.05" max="2.05" weight="1"/>
@@ -1350,7 +1350,7 @@
         <surfaceelement min="2.05" max="2.05" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv35" quality="1" min="2.08" max="2.08">
+    <damage ware="mod_weapon_volatile_basic_lv35" quality="3" min="2.08" max="2.08">
       <bonus chance="1.0" max="9">
         <cooling min="2.08" max="2.08" weight="1"/>
         <reload min="2.08" max="2.08" weight="1"/>
@@ -1363,7 +1363,7 @@
         <surfaceelement min="2.08" max="2.08" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv36" quality="1" min="2.11" max="2.11">
+    <damage ware="mod_weapon_volatile_basic_lv36" quality="3" min="2.11" max="2.11">
       <bonus chance="1.0" max="9">
         <cooling min="2.11" max="2.11" weight="1"/>
         <reload min="2.11" max="2.11" weight="1"/>
@@ -1376,7 +1376,7 @@
         <surfaceelement min="2.11" max="2.11" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv37" quality="1" min="2.14" max="2.14">
+    <damage ware="mod_weapon_volatile_basic_lv37" quality="3" min="2.14" max="2.14">
       <bonus chance="1.0" max="9">
         <cooling min="2.14" max="2.14" weight="1"/>
         <reload min="2.14" max="2.14" weight="1"/>
@@ -1389,7 +1389,7 @@
         <surfaceelement min="2.14" max="2.14" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv38" quality="1" min="2.17" max="2.17">
+    <damage ware="mod_weapon_volatile_basic_lv38" quality="3" min="2.17" max="2.17">
       <bonus chance="1.0" max="9">
         <cooling min="2.17" max="2.17" weight="1"/>
         <reload min="2.17" max="2.17" weight="1"/>
@@ -1402,7 +1402,7 @@
         <surfaceelement min="2.17" max="2.17" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv39" quality="1" min="2.20" max="2.20">
+    <damage ware="mod_weapon_volatile_basic_lv39" quality="3" min="2.20" max="2.20">
       <bonus chance="1.0" max="9">
         <cooling min="2.20" max="2.20" weight="1"/>
         <reload min="2.20" max="2.20" weight="1"/>
@@ -1415,7 +1415,7 @@
         <surfaceelement min="2.20" max="2.20" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv40" quality="1" min="2.23" max="2.23">
+    <damage ware="mod_weapon_volatile_basic_lv40" quality="3" min="2.23" max="2.23">
       <bonus chance="1.0" max="9">
         <cooling min="2.23" max="2.23" weight="1"/>
         <reload min="2.23" max="2.23" weight="1"/>
@@ -1428,7 +1428,7 @@
         <surfaceelement min="2.23" max="2.23" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv41" quality="1" min="2.26" max="2.26">
+    <damage ware="mod_weapon_volatile_basic_lv41" quality="3" min="2.26" max="2.26">
       <bonus chance="1.0" max="9">
         <cooling min="2.26" max="2.26" weight="1"/>
         <reload min="2.26" max="2.26" weight="1"/>
@@ -1441,7 +1441,7 @@
         <surfaceelement min="2.26" max="2.26" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv42" quality="1" min="2.29" max="2.29">
+    <damage ware="mod_weapon_volatile_basic_lv42" quality="3" min="2.29" max="2.29">
       <bonus chance="1.0" max="9">
         <cooling min="2.29" max="2.29" weight="1"/>
         <reload min="2.29" max="2.29" weight="1"/>
@@ -1454,7 +1454,7 @@
         <surfaceelement min="2.29" max="2.29" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv43" quality="1" min="2.32" max="2.32">
+    <damage ware="mod_weapon_volatile_basic_lv43" quality="3" min="2.32" max="2.32">
       <bonus chance="1.0" max="9">
         <cooling min="2.32" max="2.32" weight="1"/>
         <reload min="2.32" max="2.32" weight="1"/>
@@ -1467,7 +1467,7 @@
         <surfaceelement min="2.32" max="2.32" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv44" quality="1" min="2.35" max="2.35">
+    <damage ware="mod_weapon_volatile_basic_lv44" quality="3" min="2.35" max="2.35">
       <bonus chance="1.0" max="9">
         <cooling min="2.35" max="2.35" weight="1"/>
         <reload min="2.35" max="2.35" weight="1"/>
@@ -1480,7 +1480,7 @@
         <surfaceelement min="2.35" max="2.35" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv45" quality="1" min="2.50" max="2.50">
+    <damage ware="mod_weapon_volatile_basic_lv45" quality="3" min="2.50" max="2.50">
       <bonus chance="1.0" max="9">
         <cooling min="2.50" max="2.50" weight="1"/>
         <reload min="2.50" max="2.50" weight="1"/>
@@ -1609,210 +1609,210 @@
         <radarrange min="1.48" max="1.48" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv16" quality="1" min="1.51" max="1.51">
+    <maxhull ware="mod_hull_volatile_basic_lv16" quality="2" min="1.51" max="1.51">
       <bonus chance="1.0" max="3">
         <mass min="0.66" max="0.66" weight="1"/>
         <drag min="0.66" max="0.66" weight="1"/>
         <radarrange min="1.51" max="1.51" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv17" quality="1" min="1.54" max="1.54">
+    <maxhull ware="mod_hull_volatile_basic_lv17" quality="2" min="1.54" max="1.54">
       <bonus chance="1.0" max="3">
         <mass min="0.65" max="0.65" weight="1"/>
         <drag min="0.65" max="0.65" weight="1"/>
         <radarrange min="1.54" max="1.54" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv18" quality="1" min="1.57" max="1.57">
+    <maxhull ware="mod_hull_volatile_basic_lv18" quality="2" min="1.57" max="1.57">
       <bonus chance="1.0" max="3">
         <mass min="0.64" max="0.64" weight="1"/>
         <drag min="0.64" max="0.64" weight="1"/>
         <radarrange min="1.57" max="1.57" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv19" quality="1" min="1.60" max="1.60">
+    <maxhull ware="mod_hull_volatile_basic_lv19" quality="2" min="1.60" max="1.60">
       <bonus chance="1.0" max="3">
         <mass min="0.62" max="0.62" weight="1"/>
         <drag min="0.62" max="0.62" weight="1"/>
         <radarrange min="1.60" max="1.60" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv20" quality="1" min="1.63" max="1.63">
+    <maxhull ware="mod_hull_volatile_basic_lv20" quality="2" min="1.63" max="1.63">
       <bonus chance="1.0" max="3">
         <mass min="0.61" max="0.61" weight="1"/>
         <drag min="0.61" max="0.61" weight="1"/>
         <radarrange min="1.63" max="1.63" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv21" quality="1" min="1.66" max="1.66">
+    <maxhull ware="mod_hull_volatile_basic_lv21" quality="2" min="1.66" max="1.66">
       <bonus chance="1.0" max="3">
         <mass min="0.60" max="0.60" weight="1"/>
         <drag min="0.60" max="0.60" weight="1"/>
         <radarrange min="1.66" max="1.66" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv22" quality="1" min="1.69" max="1.69">
+    <maxhull ware="mod_hull_volatile_basic_lv22" quality="2" min="1.69" max="1.69">
       <bonus chance="1.0" max="3">
         <mass min="0.59" max="0.59" weight="1"/>
         <drag min="0.59" max="0.59" weight="1"/>
         <radarrange min="1.69" max="1.69" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv23" quality="1" min="1.72" max="1.72">
+    <maxhull ware="mod_hull_volatile_basic_lv23" quality="2" min="1.72" max="1.72">
       <bonus chance="1.0" max="3">
         <mass min="0.58" max="0.58" weight="1"/>
         <drag min="0.58" max="0.58" weight="1"/>
         <radarrange min="1.72" max="1.72" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv24" quality="1" min="1.75" max="1.75">
+    <maxhull ware="mod_hull_volatile_basic_lv24" quality="2" min="1.75" max="1.75">
       <bonus chance="1.0" max="3">
         <mass min="0.57" max="0.57" weight="1"/>
         <drag min="0.57" max="0.57" weight="1"/>
         <radarrange min="1.75" max="1.75" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv25" quality="1" min="1.78" max="1.78">
+    <maxhull ware="mod_hull_volatile_basic_lv25" quality="2" min="1.78" max="1.78">
       <bonus chance="1.0" max="3">
         <mass min="0.56" max="0.56" weight="1"/>
         <drag min="0.56" max="0.56" weight="1"/>
         <radarrange min="1.78" max="1.78" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv26" quality="1" min="1.81" max="1.81">
+    <maxhull ware="mod_hull_volatile_basic_lv26" quality="2" min="1.81" max="1.81">
       <bonus chance="1.0" max="3">
         <mass min="0.55" max="0.55" weight="1"/>
         <drag min="0.55" max="0.55" weight="1"/>
         <radarrange min="1.81" max="1.81" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv27" quality="1" min="1.84" max="1.84">
+    <maxhull ware="mod_hull_volatile_basic_lv27" quality="2" min="1.84" max="1.84">
       <bonus chance="1.0" max="3">
         <mass min="0.54" max="0.54" weight="1"/>
         <drag min="0.54" max="0.54" weight="1"/>
         <radarrange min="1.84" max="1.84" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv28" quality="1" min="1.87" max="1.87">
+    <maxhull ware="mod_hull_volatile_basic_lv28" quality="2" min="1.87" max="1.87">
       <bonus chance="1.0" max="3">
         <mass min="0.53" max="0.53" weight="1"/>
         <drag min="0.53" max="0.53" weight="1"/>
         <radarrange min="1.87" max="1.87" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv29" quality="1" min="1.90" max="1.90">
+    <maxhull ware="mod_hull_volatile_basic_lv29" quality="2" min="1.90" max="1.90">
       <bonus chance="1.0" max="3">
         <mass min="0.53" max="0.53" weight="1"/>
         <drag min="0.53" max="0.53" weight="1"/>
         <radarrange min="1.90" max="1.90" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv30" quality="1" min="1.93" max="1.93">
+    <maxhull ware="mod_hull_volatile_basic_lv30" quality="2" min="1.93" max="1.93">
       <bonus chance="1.0" max="3">
         <mass min="0.52" max="0.52" weight="1"/>
         <drag min="0.52" max="0.52" weight="1"/>
         <radarrange min="1.93" max="1.93" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv31" quality="1" min="1.96" max="1.96">
+    <maxhull ware="mod_hull_volatile_basic_lv31" quality="3" min="1.96" max="1.96">
       <bonus chance="1.0" max="3">
         <mass min="0.51" max="0.51" weight="1"/>
         <drag min="0.51" max="0.51" weight="1"/>
         <radarrange min="1.96" max="1.96" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv32" quality="1" min="1.99" max="1.99">
+    <maxhull ware="mod_hull_volatile_basic_lv32" quality="3" min="1.99" max="1.99">
       <bonus chance="1.0" max="3">
         <mass min="0.50" max="0.50" weight="1"/>
         <drag min="0.50" max="0.50" weight="1"/>
         <radarrange min="1.99" max="1.99" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv33" quality="1" min="2.02" max="2.02">
+    <maxhull ware="mod_hull_volatile_basic_lv33" quality="3" min="2.02" max="2.02">
       <bonus chance="1.0" max="3">
         <mass min="0.50" max="0.50" weight="1"/>
         <drag min="0.50" max="0.50" weight="1"/>
         <radarrange min="2.02" max="2.02" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv34" quality="1" min="2.05" max="2.05">
+    <maxhull ware="mod_hull_volatile_basic_lv34" quality="3" min="2.05" max="2.05">
       <bonus chance="1.0" max="3">
         <mass min="0.49" max="0.49" weight="1"/>
         <drag min="0.49" max="0.49" weight="1"/>
         <radarrange min="2.05" max="2.05" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv35" quality="1" min="2.08" max="2.08">
+    <maxhull ware="mod_hull_volatile_basic_lv35" quality="3" min="2.08" max="2.08">
       <bonus chance="1.0" max="3">
         <mass min="0.48" max="0.48" weight="1"/>
         <drag min="0.48" max="0.48" weight="1"/>
         <radarrange min="2.08" max="2.08" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv36" quality="1" min="2.11" max="2.11">
+    <maxhull ware="mod_hull_volatile_basic_lv36" quality="3" min="2.11" max="2.11">
       <bonus chance="1.0" max="3">
         <mass min="0.47" max="0.47" weight="1"/>
         <drag min="0.47" max="0.47" weight="1"/>
         <radarrange min="2.11" max="2.11" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv37" quality="1" min="2.14" max="2.14">
+    <maxhull ware="mod_hull_volatile_basic_lv37" quality="3" min="2.14" max="2.14">
       <bonus chance="1.0" max="3">
         <mass min="0.47" max="0.47" weight="1"/>
         <drag min="0.47" max="0.47" weight="1"/>
         <radarrange min="2.14" max="2.14" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv38" quality="1" min="2.17" max="2.17">
+    <maxhull ware="mod_hull_volatile_basic_lv38" quality="3" min="2.17" max="2.17">
       <bonus chance="1.0" max="3">
         <mass min="0.46" max="0.46" weight="1"/>
         <drag min="0.46" max="0.46" weight="1"/>
         <radarrange min="2.17" max="2.17" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv39" quality="1" min="2.20" max="2.20">
+    <maxhull ware="mod_hull_volatile_basic_lv39" quality="3" min="2.20" max="2.20">
       <bonus chance="1.0" max="3">
         <mass min="0.45" max="0.45" weight="1"/>
         <drag min="0.45" max="0.45" weight="1"/>
         <radarrange min="2.20" max="2.20" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv40" quality="1" min="2.23" max="2.23">
+    <maxhull ware="mod_hull_volatile_basic_lv40" quality="3" min="2.23" max="2.23">
       <bonus chance="1.0" max="3">
         <mass min="0.45" max="0.45" weight="1"/>
         <drag min="0.45" max="0.45" weight="1"/>
         <radarrange min="2.23" max="2.23" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv41" quality="1" min="2.26" max="2.26">
+    <maxhull ware="mod_hull_volatile_basic_lv41" quality="3" min="2.26" max="2.26">
       <bonus chance="1.0" max="3">
         <mass min="0.44" max="0.44" weight="1"/>
         <drag min="0.44" max="0.44" weight="1"/>
         <radarrange min="2.26" max="2.26" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv42" quality="1" min="2.29" max="2.29">
+    <maxhull ware="mod_hull_volatile_basic_lv42" quality="3" min="2.29" max="2.29">
       <bonus chance="1.0" max="3">
         <mass min="0.44" max="0.44" weight="1"/>
         <drag min="0.44" max="0.44" weight="1"/>
         <radarrange min="2.29" max="2.29" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv43" quality="1" min="2.32" max="2.32">
+    <maxhull ware="mod_hull_volatile_basic_lv43" quality="3" min="2.32" max="2.32">
       <bonus chance="1.0" max="3">
         <mass min="0.43" max="0.43" weight="1"/>
         <drag min="0.43" max="0.43" weight="1"/>
         <radarrange min="2.32" max="2.32" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv44" quality="1" min="2.35" max="2.35">
+    <maxhull ware="mod_hull_volatile_basic_lv44" quality="3" min="2.35" max="2.35">
       <bonus chance="1.0" max="3">
         <mass min="0.43" max="0.43" weight="1"/>
         <drag min="0.43" max="0.43" weight="1"/>
         <radarrange min="2.35" max="2.35" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv45" quality="1" min="2.50" max="2.50">
+    <maxhull ware="mod_hull_volatile_basic_lv45" quality="3" min="2.50" max="2.50">
       <bonus chance="1.0" max="3">
         <mass min="0.40" max="0.40" weight="1"/>
         <drag min="0.40" max="0.40" weight="1"/>
