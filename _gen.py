@@ -779,29 +779,6 @@ def gen_md():
           </actions>
         </cue>
 
-        <cue name="Manual_GrantBlueprints" instantiate="true">
-          <conditions><event_cue_signalled/></conditions>
-          <actions>
-            <do_all exact="global.$VolatileMods.$Level.$shield" counter="$i">
-              <remove_blueprints wares="[global.$VolatileMods.$Wares.$shield.{{$i}}]"/>
-            </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$engine" counter="$i">
-              <remove_blueprints wares="[global.$VolatileMods.$Wares.$engine.{{$i}}]"/>
-            </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$weapon" counter="$i">
-              <remove_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{{$i}}]"/>
-            </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$hull" counter="$i">
-              <remove_blueprints wares="[global.$VolatileMods.$Wares.$hull.{{$i}}]"/>
-            </do_all>
-            <debug_text text="'MOD: VolatileMods -- Cleaned up obsolete blueprints.'" context="false" filter="scripts"/>
-            <show_notification text="[
-                'Volatile Mods',
-                'Cleaned up all obsolete lower-level blueprints!'
-              ]" timeout="4s" priority="3"/>
-          </actions>
-        </cue>
-
       </cues>
     </cue>
 
