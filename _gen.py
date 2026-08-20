@@ -796,24 +796,22 @@ def gen_md():
         <cue name="Manual_GrantBlueprints" instantiate="true">
           <conditions><event_cue_signalled/></conditions>
           <actions>
-            <!-- Re-grant lv0..currentLevel for each category. Wares list is
-                 1-based: index N+1 = lvN, so loop 1..currentLevel+1. -->
-            <do_all exact="global.$VolatileMods.$Level.$shield + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$shield.{{$i}}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$shield" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$shield.{{$i}}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$engine + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$engine.{{$i}}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$engine" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$engine.{{$i}}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$weapon + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{{$i}}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$weapon" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{{$i}}]"/>
             </do_all>
-            <do_all exact="global.$VolatileMods.$Level.$hull + 1" counter="$i">
-              <add_blueprints wares="[global.$VolatileMods.$Wares.$hull.{{$i}}]"/>
+            <do_all exact="global.$VolatileMods.$Level.$hull" counter="$i">
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.$hull.{{$i}}]"/>
             </do_all>
-            <debug_text text="'MOD: VolatileMods -- Manual_GrantBlueprints: re-granted lv0..currentLevel for all 4 categories.'" context="false" filter="scripts"/>
+            <debug_text text="'MOD: VolatileMods -- Cleaned up obsolete blueprints.'" context="false" filter="scripts"/>
             <show_notification text="[
                 'Volatile Mods',
-                'Re-granted lv0..currentLevel blueprints for Shield / Engine / Weapon / Hull.'
+                'Cleaned up all obsolete lower-level blueprints!'
               ]" timeout="4s" priority="3"/>
           </actions>
         </cue>
