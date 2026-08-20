@@ -11,27 +11,31 @@ LIB_DIR  = os.path.join(ROOT, "libraries")
 MD_DIR   = os.path.join(ROOT, "md")
 
 CATEGORIES = ["shield", "engine", "weapon", "hull"]
-MAX_LEVEL = 45
+MAX_LEVEL = 40
 
 # Per-category Tuning Software cost. Distinct values used as a fingerprint:
 # event_inventory_removed event.param[ware.modpart_tuningsoftware] == amount
 # removed in one craft, mapping uniquely to a category. Values must stay
 # distinct from each other and from common vanilla mod TS costs (typically 1-5).
 TS_COST = {
-    "shield": 10,
-    "engine": 8,
-    "weapon": 7,
-    "hull":   9,
+    "shield": 13,
+    "engine": 11,
+    "weapon": 10,
+    "hull":   12,
 }
 
 def linear_range(N):
     # Shift the whole curve up so Level 0 starts at +3% (1.03)
     # L0 = +3%, L1 = +6%, ..., L44 = +135%
-    val = 1.03 + (N * 0.03)
+    #.03=1.2
+    #.04=1.6
+    #.025=1.0(100%)
+    val = 1.25 + (N * 0.025)
     
     # Add a custom capstone bonus for the final level to hit exactly +85% (1.85)
+    # Bonus for getting max
     if N == MAX_LEVEL:
-        val = 2.50
+        val = 2.20
         
     return (val, val)
 
@@ -124,35 +128,25 @@ def gen_equipmentmods():
     INVERTED_STATS = {"rechargedelay", "travelchargetime", "travelattacktime", "mass", "drag", "chargetime"}
 
     def block(sel, outer_tag, bonus_stats, range_fn, cat):
-            out.append(f'  <add sel="{sel}">')
-            for N in range(MAX_LEVEL + 1):
-                mn, mx = range_fn(N)
-                ware_id = f"mod_{cat}_volatile_basic_lv{N}"
-                
-                # Dynamically split across the 3 UI tabs based on MAX_LEVEL
-                # This evenly distributes the items to avoid the 32-item limit per tab
-                chunk_size = (MAX_LEVEL + 1) / 3.0
-                
-                if N < chunk_size:
-                    q = 1  # Basic Tab
-                elif N < (chunk_size * 2):
-                    q = 2  # Enhanced Tab
+        out.append(f'  <add sel="{sel}">')
+        for N in range(MAX_LEVEL + 1):
+            mn, mx = range_fn(N)
+            ware_id = f"mod_{cat}_volatile_basic_lv{N}"
+            
+            # The outer tag (capacity, forwardthrust) always scales positively
+            out.append(f'    <{outer_tag} ware="{ware_id}" quality="1" min="{fmt(mn)}" max="{fmt(mx)}">')
+            out.append(f'      <bonus chance="1.0" max="{len(bonus_stats)}">')
+            for stat in bonus_stats:
+                if stat in INVERTED_STATS:
+                    # Invert the math so an 80% buff (1.80) becomes a reduction (1.0 / 1.80 = 0.55x)
+                    inv_val = 1.0 / mn
+                    out.append(f'        <{stat} min="{fmt(inv_val)}" max="{fmt(inv_val)}" weight="1"/>')
                 else:
-                    q = 3  # Exceptional Tab
-                
-                # The outer tag (capacity, forwardthrust) uses the dynamic 'q' variable
-                out.append(f'    <{outer_tag} ware="{ware_id}" quality="{q}" min="{fmt(mn)}" max="{fmt(mx)}">')
-                out.append(f'      <bonus chance="1.0" max="{len(bonus_stats)}">')
-                for stat in bonus_stats:
-                    if stat in INVERTED_STATS:
-                        inv_val = 1.0 / mn
-                        out.append(f'        <{stat} min="{fmt(inv_val)}" max="{fmt(inv_val)}" weight="1"/>')
-                    else:
-                        out.append(f'        <{stat} min="{fmt(mn)}" max="{fmt(mx)}" weight="1"/>')
-                out.append(f'      </bonus>')
-                out.append(f'    </{outer_tag}>')
-            out.append('  </add>')
-            out.append('')
+                    out.append(f'        <{stat} min="{fmt(mn)}" max="{fmt(mx)}" weight="1"/>')
+            out.append(f'      </bonus>')
+            out.append(f'    </{outer_tag}>')
+        out.append('  </add>')
+        out.append('')
 
     out.append('  <!-- ============================ SHIELD ============================ -->')
     block('/equipmentmods/shield', 'capacity',      SHIELD_BONUS, shield_range, 'shield')
@@ -465,13 +459,13 @@ def gen_md():
             <!-- Target XP is 1 so every craft instantly triggers a level up -->
             <set_value name="$threshold" exact="1"/>
 
-            <do_if value="$curLvl ge 45">
+            <do_if value="$curLvl ge 40">
               <!-- Max level: cap XP at threshold (display-only). -->
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}" exact="$threshold"/>
               <do_if value="global.$VolatileMods.$CraftXPNotify">
                 <show_notification text="[
                     'Volatile Mods',
-                    '%s craft: MAX LEVEL reached (lv45).'.[$cat]
+                    '%s craft: MAX LEVEL reached (lv40).'.[$cat]
                   ]" timeout="3s" priority="2"/>
               </do_if>
             </do_if>
@@ -482,7 +476,9 @@ def gen_md():
               <set_value name="global.$VolatileMods.$Level.{{'$' + $cat}}" exact="$nextLvl"/>
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}"    exact="$excess"/>
 
-              <!-- Grant blueprint for the new level. Wares list is 1-based -->
+              <!-- Grant blueprint for the new level. Wares list is 1-based:
+                   index N+1 = lvN. Lower-level blueprints stay granted
+                   (X4 MD has no remove_blueprints action). -->
               <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
 
               <show_notification text="[
@@ -724,6 +720,23 @@ def gen_md():
                 ]
               ]"/>
 
+            <!-- ======================== Emergency ======================== -->
+            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
+            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                $col = 1, $colSpan = 3,
+                $text = '-- Emergency --'
+              ]"/>
+            <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
+            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
+                $col = 1, $colSpan = 2,
+                $text = 'Re-grant all earned blueprints',
+                $mouseOverText = 'Safety net. Re-grants lv0..currentLevel blueprints for each category. Safe to click even if already granted.'
+              ]"/>
+            <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
+                $col = 3,
+                $onClick = Manual_GrantBlueprints,
+                $text = table[ $text = 'Grant', $halign = 'center' ]
+              ]"/>
           </actions>
         </cue>
 
@@ -776,6 +789,31 @@ def gen_md():
           <conditions><event_cue_signalled/></conditions>
           <actions>
             <set_value name="global.$VolatileMods.$TSDropXL" exact="event.param.$value"/>
+          </actions>
+        </cue>
+
+        <cue name="Manual_GrantBlueprints" instantiate="true">
+          <conditions><event_cue_signalled/></conditions>
+          <actions>
+            <!-- Re-grant lv0..currentLevel for each category. Wares list is
+                 1-based: index N+1 = lvN, so loop 1..currentLevel+1. -->
+            <do_all exact="global.$VolatileMods.$Level.$shield + 1" counter="$i">
+              <add_blueprints wares="[global.$VolatileMods.$Wares.$shield.{{$i}}]"/>
+            </do_all>
+            <do_all exact="global.$VolatileMods.$Level.$engine + 1" counter="$i">
+              <add_blueprints wares="[global.$VolatileMods.$Wares.$engine.{{$i}}]"/>
+            </do_all>
+            <do_all exact="global.$VolatileMods.$Level.$weapon + 1" counter="$i">
+              <add_blueprints wares="[global.$VolatileMods.$Wares.$weapon.{{$i}}]"/>
+            </do_all>
+            <do_all exact="global.$VolatileMods.$Level.$hull + 1" counter="$i">
+              <add_blueprints wares="[global.$VolatileMods.$Wares.$hull.{{$i}}]"/>
+            </do_all>
+            <debug_text text="'MOD: VolatileMods -- Manual_GrantBlueprints: re-granted lv0..currentLevel for all 4 categories.'" context="false" filter="scripts"/>
+            <show_notification text="[
+                'Volatile Mods',
+                'Re-granted lv0..currentLevel blueprints for Shield / Engine / Weapon / Hull.'
+              ]" timeout="4s" priority="3"/>
           </actions>
         </cue>
 
