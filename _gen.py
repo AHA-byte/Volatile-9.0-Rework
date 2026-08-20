@@ -472,9 +472,14 @@ def gen_md():
               <set_value name="global.$VolatileMods.$Level.{{'$' + $cat}}" exact="$nextLvl"/>
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}"    exact="$excess"/>
 
+            
+
               <!-- Grant blueprint for the new level. Wares list is 1-based:
                    index N+1 = lvN. Lower-level blueprints stay granted
                    (X4 MD has no remove_blueprints action). -->
+              <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
+              <!-- Remove old blueprint to prevent UI 32-item limit crash -->
+              <remove_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$curLvl + 1}}]"/>
               <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
 
               <show_notification text="[
@@ -725,13 +730,13 @@ def gen_md():
             <signal_cue_instantly cue="md.Simple_Menu_API.Add_Row"/>
             <signal_cue_instantly cue="md.Simple_Menu_API.Make_Text" param="table[
                 $col = 1, $colSpan = 2,
-                $text = 'Re-grant all earned blueprints',
-                $mouseOverText = 'Safety net. Re-grants lv0..currentLevel blueprints for each category. Safe to click even if already granted.'
+                $text = 'Clean Up Old Blueprints',
+                $mouseOverText = 'Deletes all obsolete lower-level blueprints to fix the UI limit.'
               ]"/>
             <signal_cue_instantly cue="md.Simple_Menu_API.Make_Button" param="table[
                 $col = 3,
                 $onClick = Manual_GrantBlueprints,
-                $text = table[ $text = 'Grant', $halign = 'center' ]
+                $text = table[ $text = 'Clean', $halign = 'center' ]
               ]"/>
           </actions>
         </cue>
