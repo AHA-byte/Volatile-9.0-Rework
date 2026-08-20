@@ -472,14 +472,12 @@ def gen_md():
               <set_value name="global.$VolatileMods.$Level.{{'$' + $cat}}" exact="$nextLvl"/>
               <set_value name="global.$VolatileMods.$XP.{{'$' + $cat}}"    exact="$excess"/>
 
-            
+              <!-- AUTO-CLEANUP: Loop through and delete EVERY lower-level blueprint -->
+              <do_all exact="$nextLvl" counter="$i">
+                <remove_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$i}}]"/>
+              </do_all>
 
-              <!-- Grant blueprint for the new level. Wares list is 1-based:
-                   index N+1 = lvN. Lower-level blueprints stay granted
-                   (X4 MD has no remove_blueprints action). -->
-              <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
-              <!-- Remove old blueprint to prevent UI 32-item limit crash -->
-              <remove_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$curLvl + 1}}]"/>
+              <!-- Grant blueprint for the new level. Wares list is 1-based -->
               <add_blueprints wares="[global.$VolatileMods.$Wares.{{'$' + $cat}}.{{$nextLvl + 1}}]"/>
 
               <show_notification text="[
