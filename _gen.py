@@ -35,7 +35,7 @@ def linear_range(N):
     # Add a custom capstone bonus for the final level to hit exactly +85% (1.85)
     # Bonus for getting max
     if N == MAX_LEVEL:
-        val = 2.20
+        val = 2.25
         
     return (val, val)
 
