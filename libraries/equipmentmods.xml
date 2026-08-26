@@ -252,10 +252,10 @@
         <rechargedelay min="0.45" max="0.45" weight="1"/>
       </bonus>
     </capacity>
-    <capacity ware="mod_shield_volatile_basic_lv40" quality="1" min="2.20" max="2.20">
+    <capacity ware="mod_shield_volatile_basic_lv40" quality="1" min="2.25" max="2.25">
       <bonus chance="1.0" max="2">
-        <rechargerate min="2.20" max="2.20" weight="1"/>
-        <rechargedelay min="0.45" max="0.45" weight="1"/>
+        <rechargerate min="2.25" max="2.25" weight="1"/>
+        <rechargedelay min="0.44" max="0.44" weight="1"/>
       </bonus>
     </capacity>
   </add>
@@ -782,17 +782,17 @@
         <strafethrust min="2.23" max="2.23" weight="1"/>
       </bonus>
     </forwardthrust>
-    <forwardthrust ware="mod_engine_volatile_basic_lv40" quality="1" min="2.20" max="2.20">
+    <forwardthrust ware="mod_engine_volatile_basic_lv40" quality="1" min="2.25" max="2.25">
       <bonus chance="1.0" max="9">
-        <boostthrust min="2.20" max="2.20" weight="1"/>
-        <boostduration min="2.20" max="2.20" weight="1"/>
-        <travelthrust min="2.20" max="2.20" weight="1"/>
-        <boostacc min="2.20" max="2.20" weight="1"/>
-        <travelattacktime min="0.45" max="0.45" weight="1"/>
-        <travelchargetime min="0.45" max="0.45" weight="1"/>
-        <strafeacc min="2.20" max="2.20" weight="1"/>
-        <rotationthrust min="2.20" max="2.20" weight="1"/>
-        <strafethrust min="2.20" max="2.20" weight="1"/>
+        <boostthrust min="2.25" max="2.25" weight="1"/>
+        <boostduration min="2.25" max="2.25" weight="1"/>
+        <travelthrust min="2.25" max="2.25" weight="1"/>
+        <boostacc min="2.25" max="2.25" weight="1"/>
+        <travelattacktime min="0.44" max="0.44" weight="1"/>
+        <travelchargetime min="0.44" max="0.44" weight="1"/>
+        <strafeacc min="2.25" max="2.25" weight="1"/>
+        <rotationthrust min="2.25" max="2.25" weight="1"/>
+        <strafethrust min="2.25" max="2.25" weight="1"/>
       </bonus>
     </forwardthrust>
   </add>
@@ -1320,17 +1320,17 @@
         <surfaceelement min="2.23" max="2.23" weight="1"/>
       </bonus>
     </damage>
-    <damage ware="mod_weapon_volatile_basic_lv40" quality="1" min="2.20" max="2.20">
+    <damage ware="mod_weapon_volatile_basic_lv40" quality="1" min="2.25" max="2.25">
       <bonus chance="1.0" max="9">
-        <cooling min="2.20" max="2.20" weight="1"/>
-        <reload min="2.20" max="2.20" weight="1"/>
-        <speed min="2.20" max="2.20" weight="1"/>
-        <beamlength min="2.20" max="2.20" weight="1"/>
-        <lifetime min="2.20" max="2.20" weight="1"/>
-        <chargetime min="0.45" max="0.45" weight="1"/>
-        <rotationspeed min="2.20" max="2.20" weight="1"/>
-        <sticktime min="2.20" max="2.20" weight="1"/>
-        <surfaceelement min="2.20" max="2.20" weight="1"/>
+        <cooling min="2.25" max="2.25" weight="1"/>
+        <reload min="2.25" max="2.25" weight="1"/>
+        <speed min="2.25" max="2.25" weight="1"/>
+        <beamlength min="2.25" max="2.25" weight="1"/>
+        <lifetime min="2.25" max="2.25" weight="1"/>
+        <chargetime min="0.44" max="0.44" weight="1"/>
+        <rotationspeed min="2.25" max="2.25" weight="1"/>
+        <sticktime min="2.25" max="2.25" weight="1"/>
+        <surfaceelement min="2.25" max="2.25" weight="1"/>
       </bonus>
     </damage>
   </add>
@@ -1617,11 +1617,11 @@
         <radarrange min="2.23" max="2.23" weight="1"/>
       </bonus>
     </maxhull>
-    <maxhull ware="mod_hull_volatile_basic_lv40" quality="1" min="2.20" max="2.20">
+    <maxhull ware="mod_hull_volatile_basic_lv40" quality="1" min="2.25" max="2.25">
       <bonus chance="1.0" max="3">
-        <mass min="0.45" max="0.45" weight="1"/>
-        <drag min="0.45" max="0.45" weight="1"/>
-        <radarrange min="2.20" max="2.20" weight="1"/>
+        <mass min="0.44" max="0.44" weight="1"/>
+        <drag min="0.44" max="0.44" weight="1"/>
+        <radarrange min="2.25" max="2.25" weight="1"/>
       </bonus>
     </maxhull>
   </add>

@@ -327,7 +327,7 @@
         </primary>
       </production>
     </ware>
-    <ware id="mod_shield_volatile_basic_lv40" name="Volatile Shield Mod (lv40)" description="Deterministic shield upgrade. Increases capacity and recharge rate; decreases recharge delay. Level 40 bonus: +120%. Apply cost: 13 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
+    <ware id="mod_shield_volatile_basic_lv40" name="Volatile Shield Mod (lv40)" description="Deterministic shield upgrade. Increases capacity and recharge rate; decreases recharge delay. Level 40 bonus: +125%. Apply cost: 13 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
       <price min="135000" average="180000" max="270000"/>
       <production time="60" amount="1" method="default" name="{20206,301}">
         <primary>
@@ -657,7 +657,7 @@
         </primary>
       </production>
     </ware>
-    <ware id="mod_engine_volatile_basic_lv40" name="Volatile Engine Mod (lv40)" description="Deterministic engine upgrade. Increases thrust, rotation, and strafe; decreases charge times. Level 40 bonus: +120%. Apply cost: 11 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
+    <ware id="mod_engine_volatile_basic_lv40" name="Volatile Engine Mod (lv40)" description="Deterministic engine upgrade. Increases thrust, rotation, and strafe; decreases charge times. Level 40 bonus: +125%. Apply cost: 11 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
       <price min="135000" average="180000" max="270000"/>
       <production time="60" amount="1" method="default" name="{20206,301}">
         <primary>
@@ -987,7 +987,7 @@
         </primary>
       </production>
     </ware>
-    <ware id="mod_weapon_volatile_basic_lv40" name="Volatile Weapon Mod (lv40)" description="Deterministic weapon upgrade. Increases damage, cooling, reload, and speed; decreases charge time. Level 40 bonus: +120%. Apply cost: 10 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
+    <ware id="mod_weapon_volatile_basic_lv40" name="Volatile Weapon Mod (lv40)" description="Deterministic weapon upgrade. Increases damage, cooling, reload, and speed; decreases charge time. Level 40 bonus: +125%. Apply cost: 10 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
       <price min="135000" average="180000" max="270000"/>
       <production time="60" amount="1" method="default" name="{20206,301}">
         <primary>
@@ -1317,7 +1317,7 @@
         </primary>
       </production>
     </ware>
-    <ware id="mod_hull_volatile_basic_lv40" name="Volatile Hull Mod (lv40)" description="Deterministic hull upgrade. Increases hull and radar range; decreases mass and drag. Level 40 bonus: +120%. Apply cost: 12 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
+    <ware id="mod_hull_volatile_basic_lv40" name="Volatile Hull Mod (lv40)" description="Deterministic hull upgrade. Increases hull and radar range; decreases mass and drag. Level 40 bonus: +125%. Apply cost: 12 Tuning Software. Permanent once applied." transport="inventory" volume="1" tags="crafting equipmentmod">
       <price min="135000" average="180000" max="270000"/>
       <production time="60" amount="1" method="default" name="{20206,301}">
         <primary>
