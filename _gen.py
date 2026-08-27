@@ -48,7 +48,6 @@ RANGES = {
     "shield": shield_range,
     "engine": engine_range,
     "weapon": weapon_range,
-    "hull":   hull_range,
 }
 
 PACK_DESCRIPTIONS = {
