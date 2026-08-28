@@ -62,6 +62,7 @@ PACK_TITLE = {
     "shield": "Volatile Shield Mod",
     "engine": "Volatile Engine Mod",
     "weapon": "Volatile Weapon Mod",
+    "hull":   "Volatile Hull Mod",
 }
 
 # ---------------- wares.xml ----------------
