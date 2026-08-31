@@ -102,7 +102,7 @@ def gen_wares():
     return "\n".join(out) + "\n"
 
 # ---------------- equipmentmods.xml ----------------
-
+a=6
 
 def gen_equipmentmods():
     def fmt(x): return f"{x:.2f}"
