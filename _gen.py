@@ -102,7 +102,7 @@ def gen_wares():
     return "\n".join(out) + "\n"
 
 # ---------------- equipmentmods.xml ----------------
-SHIELD_BONUS = ["rechargerate", "rechargedelay"]
+
 ENGINE_BONUS = ["boostthrust", "boostduration", "travelthrust", "boostacc",
                 "travelattacktime", "travelchargetime", "strafeacc",
                 "rotationthrust", "strafethrust"]
