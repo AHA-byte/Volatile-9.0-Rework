@@ -41,7 +41,7 @@ def linear_range(N):
 
 def weapon_range(N):   return linear_range(N)
 def engine_range(N):   return linear_range(N)
-def hull_range(N):     return linear_range(N)
+
 
 
 RANGES = {
