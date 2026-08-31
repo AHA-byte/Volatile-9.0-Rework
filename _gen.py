@@ -103,12 +103,6 @@ def gen_wares():
 
 # ---------------- equipmentmods.xml ----------------
 
-ENGINE_BONUS = ["boostthrust", "boostduration", "travelthrust", "boostacc",
-                "travelattacktime", "travelchargetime", "strafeacc",
-                "rotationthrust", "strafethrust"]
-WEAPON_BONUS = ["cooling", "reload", "speed", "beamlength", "lifetime",
-                "chargetime", "rotationspeed", "sticktime", "surfaceelement"]
-HULL_BONUS   = ["mass", "drag", "radarrange"]
 
 def gen_equipmentmods():
     def fmt(x): return f"{x:.2f}"
