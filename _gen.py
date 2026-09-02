@@ -110,6 +110,7 @@ WEAPON_BONUS = ["cooling", "reload", "speed", "beamlength", "lifetime",
                 "chargetime", "rotationspeed", "sticktime", "surfaceelement"]
 HULL_BONUS   = ["mass", "drag", "radarrange"]
 
+x=9
 def gen_equipmentmods():
     def fmt(x): return f"{x:.2f}"
     out = ['<?xml version="1.0" encoding="utf-8"?>',
